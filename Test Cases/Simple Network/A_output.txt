@@ -1,0 +1,31 @@
+Router A Log
+====================
+[2024-11-22 23:52:27] Router A running iteration 0
+[2024-11-22 23:52:27] Routing Table:
+[2024-11-22 23:52:27]   A: 0 
+[2024-11-22 23:52:27]   B: 2 
+[2024-11-22 23:52:27]   C: inf 
+[2024-11-22 23:52:27]   D: 1 
+[2024-11-22 23:52:29] Received distance vector from B
+[2024-11-22 23:52:29] Calculating cost to A: current cost = 0, new cost via B = 2 + 2 = 4
+[2024-11-22 23:52:29] Calculating cost to B: current cost = 2, new cost via B = 2 + 0 = 2
+[2024-11-22 23:52:29] Calculating cost to C: current cost = inf, new cost via B = 2 + 3 = 5
+[2024-11-22 23:52:29] Updated cost to C: inf -> 5
+[2024-11-22 23:52:29] Calculating cost to D: current cost = 1, new cost via B = 2 + 7 = 9
+[2024-11-22 23:52:29] Router A running iteration 1
+[2024-11-22 23:52:29] Routing Table:
+[2024-11-22 23:52:29]   A: 0 
+[2024-11-22 23:52:29]   B: 2 
+[2024-11-22 23:52:29]   C: 5 
+[2024-11-22 23:52:29]   D: 1 
+[2024-11-22 23:52:31] Received distance vector from D
+[2024-11-22 23:52:31] Calculating cost to A: current cost = 0, new cost via D = 1 + 1 = 2
+[2024-11-22 23:52:31] Calculating cost to B: current cost = 2, new cost via D = 1 + 7 = 8
+[2024-11-22 23:52:31] Calculating cost to C: current cost = 5, new cost via D = 1 + 10 = 11
+[2024-11-22 23:52:31] Calculating cost to D: current cost = 1, new cost via D = 1 + 0 = 1
+[2024-11-22 23:52:31] Router A running iteration 2
+[2024-11-22 23:52:31] Routing Table:
+[2024-11-22 23:52:31]   A: 0 
+[2024-11-22 23:52:31]   B: 2 
+[2024-11-22 23:52:31]   C: 5 
+[2024-11-22 23:52:31]   D: 1 

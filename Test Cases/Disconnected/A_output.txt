@@ -1,0 +1,12 @@
+Router A Log
+====================
+[2024-11-22 23:54:49] Router A running iteration 0
+[2024-11-22 23:54:49] Routing Table:
+[2024-11-22 23:54:49]   A: 0 
+[2024-11-22 23:54:49]   B: 5 
+[2024-11-22 23:54:49]   C: inf 
+[2024-11-22 23:54:51] Received distance vector from B
+[2024-11-22 23:54:51] Calculating cost to A: current cost = 0, new cost via B = 5 + 5 = 10
+[2024-11-22 23:54:51] Calculating cost to B: current cost = 5, new cost via B = 5 + 0 = 5
+[2024-11-22 23:54:51] Calculating cost to C: current cost = inf, new cost via B = 5 + inf = inf
+[2024-11-22 23:54:51] Dest C remains unreachable for A
